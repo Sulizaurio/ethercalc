@@ -28,7 +28,6 @@
           var colorIndex, SCLoc, namelist, nl, name, i;
           colorIndex = 0;
           SCLoc = SocialCalc.LocalizeString;
-          namelist = [];
           nl = document.getElementById(s.idPrefix + 'graphlist');
           s.editor.RangeChangeCallback.graph = UpdateGraphRangeProposal;
           for (name in s.sheet.names) {
